@@ -17,13 +17,18 @@
 		<main class="container">
 			<nav>
 				<img src="public/Logo.svg" alt="logo" />
-				<div class="navigation__links">
+				<div class="navigation__links" id="navLinks">
 					<a href="">About Us</a>
 					<a href="">Services</a>
 					<a href="">Use Cases</a>
 					<a href="">Pricing</a>
 					<a href="">Blog</a>
 					<button>Request a quote</button>
+				</div>
+				<div class="burger-menu" id="burgerMenu">
+					<span></span>
+					<span></span>
+					<span></span>
 				</div>
 			</nav>
 
@@ -148,8 +153,8 @@
 					<div class="services_cardsection__card bg-black">
 						<div class="services_cardsection__card__left">
 							<div>
-								<h3 class="bg-green border">Analytics and</h3>
-								<h3 class="bg-green border">Tracking</h3>
+								<h3 class="bg-white border">Analytics and</h3>
+								<h3 class="bg-white border">Tracking</h3>
 							</div>
 							<a class="learn_more">
 								<img src="public/Icon_black.svg" alt="" />
@@ -210,6 +215,60 @@
 					<a href="">Learn more <img src="public/Icon_simple.svg" alt="" /></a>
 				</div>
 			</div>
+
+			<div class="heading">
+				<h2 class="bg-green border">Our working process</h2>
+				<p>
+					Step-by-Step Guide to Achieving<br />
+					Your Business Goals
+				</p>
+			</div>
+
+			<div class="process">
+				<div class="card">
+					<div class="text">
+						<p class="big">01</p>
+						<p class="title">Consultation</p>
+					</div>
+					<img src="public/Plus icon.svg" alt="" />
+				</div>
+				<div class="card">
+					<div class="text">
+						<p class="big">02</p>
+						<p class="title">Research and Strategy Development</p>
+					</div>
+					<img src="public/Plus icon.svg" alt="" />
+				</div>
+				<div class="card">
+					<div class="text">
+						<p class="big">03</p>
+						<p class="title">Implementation</p>
+					</div>
+					<img src="public/Plus icon.svg" alt="" />
+				</div>
+				<div class="card">
+					<div class="text">
+						<p class="big">04</p>
+						<p class="title">Monitoring and Optimization</p>
+					</div>
+					<img src="public/Plus icon.svg" alt="" />
+				</div>
+				<div class="card">
+					<div class="text">
+						<p class="big">05</p>
+						<p class="title">Reporting and Communication</p>
+					</div>
+					<img src="public/Plus icon.svg" alt="" />
+				</div>
+				<div class="card">
+					<div class="text">
+						<p class="big">06</p>
+						<p class="title">Continual Improvement</p>
+					</div>
+					<img src="public/Plus icon.svg" alt="" />
+				</div>
+			</div>
+
 			<footer>
 				<div class="elements">
 					<img class="positivus" src="public/Logo_white.svg" alt="logo" />
@@ -250,4 +309,5 @@
 			</footer>
 		</main>
 	</body>
+	<script src="script/burger.js"></script>
 </html>
